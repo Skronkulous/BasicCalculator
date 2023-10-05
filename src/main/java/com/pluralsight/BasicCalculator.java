@@ -12,7 +12,7 @@ public class BasicCalculator {
         kbScanner.nextLine();
 
         System.out.print("Possible calculations: \n   (A)dd \n   (S)ubtract \n   (M)ultiply \n   (D)ivide \nPlease select an option: " );
-        char calcResult = kbScanner.next().charAt(0);
+        char calcResult = kbScanner.nextLine().charAt(0);
 
         System.out.print(num1 + " + " + num2 + " = " + (num1 + num2));
 
